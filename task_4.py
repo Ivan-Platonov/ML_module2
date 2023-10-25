@@ -28,8 +28,7 @@ print('Задача 4. Информация о пользователе')
 # Вас зовут: Роман Булгаков
 # Вы живете в городе Москва
 
-
-firstname, lastname, city =  ('',) * 3
+firstname, lastname, city = ('', ) * 3
 
 while firstname.strip() == '':
   firstname = input('Введите свое имя: ')
